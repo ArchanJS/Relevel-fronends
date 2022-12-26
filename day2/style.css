@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 98vw;
+    height: 300px;
+    border: 4px solid black;
+    display: flex;
+    /* flex-direction: row; it is row by default */
+    /* align-items: center; It brings elements to the ver center pos*/
+    /* justify-content: space-around; */
+}
+.box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: brown;
+}
