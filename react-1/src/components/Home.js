@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     const navigateToChild=(pokename)=>{
-        navigate(`/${pokename}`);
+        navigate(`/pokemon/${pokename}`);
     }
   return (
     <>
